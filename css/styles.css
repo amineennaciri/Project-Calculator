@@ -5,4 +5,57 @@
     height: 100vh;
     max-width: 100vw;
     margin: 0;
-} 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.display {
+    height: 94px;
+    width: 270px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+}
+.menu {
+    height: 450px;
+    width: 270px;
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap;
+    background-color: black;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 20px;
+    border-radius:60px;
+    width: 60px;
+    /* height: 20px; */
+    text-align: center;
+
+}
+
+#zero {
+    width: 126px;
+}
+
+#gray {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+#black,#zero {
+    background-color: #343434;
+    color: white;
+}
+#orange {
+    background-color: #ff9600;
+    color: white;
+}
+
