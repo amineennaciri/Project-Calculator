@@ -12,8 +12,16 @@ function multiplyNum(a,b){
     return a*b
 }
 function divideNum(a,b){
-    return a/b
+    if(b!=0){
+        return a/b
+    }else{
+        return 'Error'
+    }
 }
+function percentNum(a){
+    return a/100
+}
+
 //test
 /* console.log(addNum(5,5))
 console.log(subNum(5,5))
